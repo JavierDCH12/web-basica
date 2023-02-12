@@ -46,3 +46,40 @@ body{
     margin-top: 20px;
     color: white;
 }
+
+.menu-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ccc;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+}
+
+.menu-area a{
+    align-items: center;
+    color: azure;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.3rem;
+    position: sticky;
+    transition: all 500ms;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+   margin-left: 0;
+   
+
+    
+}
+
+.menu-area a:hover{
+    background-color: #555;
+    color: darkgray;
+
+}
