@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
+    position: absolute;
     
 }
 
@@ -34,6 +35,8 @@ body{
     margin-left: 70px;
 }
 
+
+
 .caja-item{
     align-items:flex-end;
     margin: 0;
@@ -46,6 +49,7 @@ body{
     margin-top: 20px;
     color: white;
 }
+
 
 .menu-area{
     display: flex;
@@ -69,13 +73,13 @@ body{
     text-align: center;
     line-height: 35px;
     font-size: 1.3rem;
-    position: sticky;
+    
     transition: all 500ms;
     padding-left: 20px;
     padding-right: 20px;
     text-transform: uppercase;
-   margin-left: 0;
-   width: 305px;
+    margin-left: 0;
+    width: 305px;
    
 
     
@@ -118,7 +122,6 @@ body{
     font-weight: bolder;
     letter-spacing: 3px;
 }
-.item h2{
 
 
-}
+
